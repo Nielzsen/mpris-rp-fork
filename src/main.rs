@@ -63,10 +63,7 @@ fn update_presence(
     );
     let data = helpers::get_data(&proxy)?;
 
-    let state: String = format!("{} - {}", data["artist"], data["album"])
-        .chars()
-        .take(128)
-        .collect();
+    let state: String = data["artist"].chars().take(128).collect();
     let details: String = data["title"].chars().take(128).collect();
     let large_text: String = format!("Listening with {}", &player);
     let assets = activity::Assets::new()
