@@ -57,7 +57,7 @@ fn update_presence(
     };
 
     let proxy = conn.with_proxy(
-        format!("org.mpris.MediaPlayer2.{}", &player),
+        format!("org.mpris.MediaPlayer2.Lollypop"),
         "/org/mpris/MediaPlayer2",
         Duration::from_millis(5000),
     );
