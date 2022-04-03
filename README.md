@@ -1,6 +1,6 @@
 # MPRIS RP
 
-***Forked from [HERE](https://github.com/nickofolas/mpris-rp)***
+***Forked from nickofolas's repo [HERE](https://github.com/nickofolas/mpris-rp)***
 
 A program made to run in the background and update a Discord rich presence with data from MPRIS-compatible players.
 
