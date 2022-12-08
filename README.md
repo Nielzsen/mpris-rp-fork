@@ -1,6 +1,6 @@
 # MPRIS RP
 
-***Forked from nickofolas's repo [HERE](https://github.com/nickofolas/mpris-rp)***
+***Forked from nickofolas's repo (now unavailable)***
 
 A program made to run in the background and update a Discord rich presence with data from MPRIS-compatible players.
 
@@ -25,13 +25,13 @@ WantedBy=default.target
 ## Installation
 Requires the latest Rust compiler:
 ```sh
-cargo install --git https://github.com/nickofolas/mpris-rp --branch main mpris-rp
+cargo install --git https://github.com/Nielzsen/mpris-rp-fork.git --branch main mpris-rp
 ```
 
 Or, building from source:
 ```sh
-git clone https://github.com/nickofolas/mpris-rp.git # via HTTPS
-git clone git@github.com:nickofolas/mpris-rp.git     # via SSH
+git clone https://github.com/Nielzsen/mpris-rp-fork.git # via HTTPS
+git clone git@github.com/Nielzsen/mpris-rp-fork.git     # via SSH
 
 cd mpris-rp
 
